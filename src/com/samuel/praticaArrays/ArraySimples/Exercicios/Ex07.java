@@ -2,7 +2,7 @@ package com.samuel.praticaArrays.ArraySimples.Exercicios;
 
 import java.util.Scanner;
 
-public class Ex8 {
+public class Ex07 {
 
 	public static void main(String[] args) {
 		
@@ -17,7 +17,7 @@ public class Ex8 {
 			System.out.println("Digite um valor: ");
 			a[i] = scan.nextInt();
 			b[i] = a[i] * i;
-			c[i] = a[i] * b[i];
+			c[i] = a[i] - b[i];
 		}
 		
 		System.out.println("A: ");
