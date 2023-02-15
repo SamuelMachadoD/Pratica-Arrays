@@ -1,8 +1,8 @@
-package com.samuel.praticaArrays.Exercicios;
+package com.samuel.praticaArrays.ArraySimples.Exercicios;
 
 import java.util.Scanner;
 
-public class Ex6 {
+public class Ex8 {
 
 	public static void main(String[] args) {
 		
@@ -17,7 +17,7 @@ public class Ex6 {
 			System.out.println("Digite um valor: ");
 			a[i] = scan.nextInt();
 			b[i] = a[i] * i;
-			c[i] = a[i] + b[i];
+			c[i] = a[i] * b[i];
 		}
 		
 		System.out.println("A: ");

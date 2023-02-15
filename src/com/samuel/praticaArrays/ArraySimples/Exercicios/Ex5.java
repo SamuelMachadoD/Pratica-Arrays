@@ -1,4 +1,4 @@
-package com.samuel.praticaArrays.Exercicios;
+package com.samuel.praticaArrays.ArraySimples.Exercicios;
 
 import java.util.Scanner;
 
