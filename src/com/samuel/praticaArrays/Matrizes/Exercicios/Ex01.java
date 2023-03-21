@@ -15,12 +15,12 @@ public class Ex01 {
 		int[][] matriz = new int[4][4];
 		
 		for(int i = 0; i < matriz.length; i++) {
-			for(int j = 0; j < matriz.length; j++) {
+			for(int j = 0; j < matriz[i].length; j++) {
 				matriz[i][j] = random.nextInt(10);
 				System.out.print(matriz[i][j] + " ");
 				if(matriz[i][j] > maior) {
-					colunaMaior = j;
-					linhaMaior = i;
+					colunaMaior = j+1;
+					linhaMaior = i+1;
 					maior = matriz[i][j];
 				}
 			}
@@ -28,7 +28,7 @@ public class Ex01 {
 		}
 		
 		System.out.println("O maior numero é : " + maior);
-		System.err.println("Coluna: " + colunaMaior + " Linha: " + linhaMaior);
+		System.out.println("Coluna: " + colunaMaior + " Linha: " + linhaMaior);
 
 	}
 
